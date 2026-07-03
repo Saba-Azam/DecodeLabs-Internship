@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+}
+
+section h2 {
+    text-align: center;
+    color: #008080;
+}
+
+/* Destination Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #008080;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    background-color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#about {
+    text-align: center;
+    background-color: white;
+}
